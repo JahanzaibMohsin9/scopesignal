@@ -80,7 +80,7 @@ Both models ran the 10-scenario evaluation set through the production `classifyS
 
 Both models missed the same case, a content update within a monthly cap, and both missed it conservatively: they flagged it for human review rather than giving a confident wrong answer.
 
-**Decision:** `gpt-5-mini` is the default (`OPENAI_CLASSIFICATION_MODEL`). It matched accuracy at about 40% of the cost. `gpt-5.2` is the escalation model (`OPENAI_ESCALATION_MODEL`). It re-checks results that come back as `needs_review`, fall below the confidence threshold, have malformed output or a missing citation, or rest on contradictory evidence.
+**Decision:** `gpt-5-mini` is the default (`OPENAI_CLASSIFICATION_MODEL`). It matched accuracy at about 40% of the cost. `gpt-5.2` can be set as an escalation model (`OPENAI_ESCALATION_MODEL`) for re-checking uncertain results, but the scope worker doesn't call it yet. Today, uncertain results go straight to human review (below).
 
 ## Human review rules
 
