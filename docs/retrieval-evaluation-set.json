@@ -1,0 +1,193 @@
+{
+  "name": "Day 27 Acme retrieval evaluation set",
+  "workspaceId": "10000000-0000-0000-0000-000000000001",
+  "proposalId": "10000000-0000-0000-0000-000000000010",
+  "chunks": [
+    {
+      "id": "10000000-0000-0000-0000-000000000070",
+      "documentId": "10000000-0000-0000-0000-000000000011",
+      "documentTitle": "Acme Website Retainer - Master Services Proposal",
+      "documentKind": "proposal",
+      "effectiveDate": "2026-01-01",
+      "sectionTitle": "Included Services",
+      "content": "Scope includes CMS maintenance, analytics reviews, bug fixes, and up to four hours of content updates each month."
+    },
+    {
+      "id": "10000000-0000-0000-0000-000000000071",
+      "documentId": "10000000-0000-0000-0000-000000000012",
+      "documentTitle": "Acme Website Retainer - Paid Media Exclusion Addendum",
+      "documentKind": "addendum",
+      "effectiveDate": "2026-02-15",
+      "sectionTitle": "Excluded Services",
+      "content": "Paid media strategy, campaign management, and budget pacing are excluded unless approved through a signed change order."
+    },
+    {
+      "id": "day27-distractor-timeline",
+      "documentId": "day27-distractor-proposal",
+      "documentTitle": "Acme Website Retainer - Master Services Proposal",
+      "documentKind": "proposal",
+      "effectiveDate": "2026-01-01",
+      "sectionTitle": "Response Times",
+      "content": "Routine support requests are acknowledged within one business day and scheduled according to severity and team availability."
+    },
+    {
+      "id": "day27-distractor-hosting",
+      "documentId": "day27-distractor-proposal",
+      "documentTitle": "Acme Website Retainer - Master Services Proposal",
+      "documentKind": "proposal",
+      "effectiveDate": "2026-01-01",
+      "sectionTitle": "Hosting",
+      "content": "Hosting infrastructure, domain renewals, and third party subscription fees remain the responsibility of the client unless separately contracted."
+    },
+    {
+      "id": "day27-distractor-reporting",
+      "documentId": "day27-distractor-proposal",
+      "documentTitle": "Acme Website Retainer - Master Services Proposal",
+      "documentKind": "proposal",
+      "effectiveDate": "2026-01-01",
+      "sectionTitle": "Reporting",
+      "content": "The agency will provide a short monthly performance summary covering traffic trends, analytics observations, completed maintenance, and recommended next steps."
+    },
+    {
+      "id": "day27-distractor-ownership",
+      "documentId": "day27-distractor-proposal",
+      "documentTitle": "Acme Website Retainer - Master Services Proposal",
+      "documentKind": "proposal",
+      "effectiveDate": "2026-01-01",
+      "sectionTitle": "Intellectual Property",
+      "content": "Final approved website assets created under the agreement transfer to the client after invoices are paid in full."
+    },
+    {
+      "id": "day27-distractor-meetings",
+      "documentId": "day27-distractor-proposal",
+      "documentTitle": "Acme Website Retainer - Master Services Proposal",
+      "documentKind": "proposal",
+      "effectiveDate": "2026-01-01",
+      "sectionTitle": "Meetings",
+      "content": "The retainer includes one monthly account call to review priorities, recent work, risks, and upcoming website needs."
+    },
+    {
+      "id": "day27-distractor-emergency",
+      "documentId": "day27-distractor-proposal",
+      "documentTitle": "Acme Website Retainer - Master Services Proposal",
+      "documentKind": "proposal",
+      "effectiveDate": "2026-01-01",
+      "sectionTitle": "Emergency Support",
+      "content": "Emergency production outages are triaged as quickly as possible, but after-hours emergency support requires separate approval."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q01",
+      "text": "Can you manage our Meta ads next month under the current retainer?",
+      "expectedChunkIds": ["10000000-0000-0000-0000-000000000071"]
+    },
+    {
+      "id": "q02",
+      "text": "Is paid media budget pacing included in our agreement?",
+      "expectedChunkIds": ["10000000-0000-0000-0000-000000000071"]
+    },
+    {
+      "id": "q03",
+      "text": "Can the agency take over Google Ads campaign management without a change order?",
+      "expectedChunkIds": ["10000000-0000-0000-0000-000000000071"]
+    },
+    {
+      "id": "q04",
+      "text": "We need campaign strategy for paid social, is that covered?",
+      "expectedChunkIds": ["10000000-0000-0000-0000-000000000071"]
+    },
+    {
+      "id": "q05",
+      "text": "Do we need separate approval for PPC management?",
+      "expectedChunkIds": ["10000000-0000-0000-0000-000000000071"]
+    },
+    {
+      "id": "q06",
+      "text": "Can you optimize our ad spend and manage the campaign pacing?",
+      "expectedChunkIds": ["10000000-0000-0000-0000-000000000071"]
+    },
+    {
+      "id": "q07",
+      "text": "Is paid media strategy excluded by the signed addendum?",
+      "expectedChunkIds": ["10000000-0000-0000-0000-000000000071"]
+    },
+    {
+      "id": "q08",
+      "text": "Can you add Facebook campaign work to this month without a signed change order?",
+      "expectedChunkIds": ["10000000-0000-0000-0000-000000000071"]
+    },
+    {
+      "id": "q09",
+      "text": "Are monthly CMS maintenance tasks part of the retainer?",
+      "expectedChunkIds": ["10000000-0000-0000-0000-000000000070"]
+    },
+    {
+      "id": "q10",
+      "text": "Can we use our four content update hours this month?",
+      "expectedChunkIds": ["10000000-0000-0000-0000-000000000070"]
+    },
+    {
+      "id": "q11",
+      "text": "Does the proposal include bug fixes for the website?",
+      "expectedChunkIds": ["10000000-0000-0000-0000-000000000070"]
+    },
+    {
+      "id": "q12",
+      "text": "Are analytics reviews included in the baseline scope?",
+      "expectedChunkIds": ["10000000-0000-0000-0000-000000000070"]
+    },
+    {
+      "id": "q13",
+      "text": "Can you update a few homepage paragraphs within our retainer hours?",
+      "expectedChunkIds": ["10000000-0000-0000-0000-000000000070"]
+    },
+    {
+      "id": "q14",
+      "text": "Is routine CMS support covered every month?",
+      "expectedChunkIds": ["10000000-0000-0000-0000-000000000070"]
+    },
+    {
+      "id": "q15",
+      "text": "Are content changes and maintenance already included?",
+      "expectedChunkIds": ["10000000-0000-0000-0000-000000000070"]
+    },
+    {
+      "id": "q16",
+      "text": "Can the team review analytics and fix site bugs as part of scope?",
+      "expectedChunkIds": ["10000000-0000-0000-0000-000000000070"]
+    },
+    {
+      "id": "q17",
+      "text": "Can we include CMS updates but not paid ads?",
+      "expectedChunkIds": [
+        "10000000-0000-0000-0000-000000000070",
+        "10000000-0000-0000-0000-000000000071"
+      ]
+    },
+    {
+      "id": "q18",
+      "text": "Is a paid social campaign different from the included website maintenance work?",
+      "expectedChunkIds": [
+        "10000000-0000-0000-0000-000000000071",
+        "10000000-0000-0000-0000-000000000070"
+      ]
+    },
+    {
+      "id": "q19",
+      "text": "Can we trade some content update time for campaign management?",
+      "expectedChunkIds": [
+        "10000000-0000-0000-0000-000000000071",
+        "10000000-0000-0000-0000-000000000070"
+      ]
+    },
+    {
+      "id": "q20",
+      "text": "What clause says ads require a signed change order while CMS changes are included?",
+      "expectedChunkIds": [
+        "10000000-0000-0000-0000-000000000071",
+        "10000000-0000-0000-0000-000000000070"
+      ]
+    }
+  ]
+}

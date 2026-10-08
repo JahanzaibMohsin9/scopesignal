@@ -1,0 +1,15 @@
+.DS_Store
+.next
+.tmp
+coverage
+node_modules
+npm-debug.log*
+out
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+.vercel
+*.tsbuildinfo

@@ -1,0 +1,1132 @@
+{
+  "evaluatedAt": "2026-04-12T07:15:49.672Z",
+  "evaluationSet": {
+    "name": "Day 27 Acme retrieval evaluation set",
+    "questionCount": 20,
+    "chunkCount": 8
+  },
+  "targetHitRate": 0.85,
+  "selectedConfig": {
+    "name": "smaller_candidate_pool",
+    "matchCount": 6,
+    "finalCount": 5,
+    "similarityThreshold": 0.2
+  },
+  "results": [
+    {
+      "config": {
+        "name": "baseline",
+        "matchCount": 10,
+        "finalCount": 5,
+        "similarityThreshold": 0.2
+      },
+      "hitRateAtFinalK": 1,
+      "allExpectedHitRateAtFinalK": 1,
+      "meanReciprocalRank": 0.8,
+      "questionResults": [
+        {
+          "questionId": "q01",
+          "expectedChunkIds": ["10000000-0000-0000-0000-000000000071"],
+          "finalChunkIds": [
+            "10000000-0000-0000-0000-000000000071",
+            "day27-distractor-ownership",
+            "10000000-0000-0000-0000-000000000070",
+            "day27-distractor-timeline",
+            "day27-distractor-hosting"
+          ],
+          "hit": true,
+          "allExpectedHit": true,
+          "firstExpectedRank": 1
+        },
+        {
+          "questionId": "q02",
+          "expectedChunkIds": ["10000000-0000-0000-0000-000000000071"],
+          "finalChunkIds": [
+            "10000000-0000-0000-0000-000000000071",
+            "day27-distractor-ownership",
+            "10000000-0000-0000-0000-000000000070",
+            "day27-distractor-timeline",
+            "day27-distractor-hosting"
+          ],
+          "hit": true,
+          "allExpectedHit": true,
+          "firstExpectedRank": 1
+        },
+        {
+          "questionId": "q03",
+          "expectedChunkIds": ["10000000-0000-0000-0000-000000000071"],
+          "finalChunkIds": [
+            "10000000-0000-0000-0000-000000000071",
+            "day27-distractor-reporting",
+            "day27-distractor-ownership",
+            "10000000-0000-0000-0000-000000000070",
+            "day27-distractor-timeline"
+          ],
+          "hit": true,
+          "allExpectedHit": true,
+          "firstExpectedRank": 1
+        },
+        {
+          "questionId": "q04",
+          "expectedChunkIds": ["10000000-0000-0000-0000-000000000071"],
+          "finalChunkIds": [
+            "10000000-0000-0000-0000-000000000071",
+            "day27-distractor-ownership",
+            "10000000-0000-0000-0000-000000000070",
+            "day27-distractor-timeline",
+            "day27-distractor-hosting"
+          ],
+          "hit": true,
+          "allExpectedHit": true,
+          "firstExpectedRank": 1
+        },
+        {
+          "questionId": "q05",
+          "expectedChunkIds": ["10000000-0000-0000-0000-000000000071"],
+          "finalChunkIds": [
+            "10000000-0000-0000-0000-000000000071",
+            "day27-distractor-ownership",
+            "day27-distractor-emergency",
+            "10000000-0000-0000-0000-000000000070",
+            "day27-distractor-timeline"
+          ],
+          "hit": true,
+          "allExpectedHit": true,
+          "firstExpectedRank": 1
+        },
+        {
+          "questionId": "q06",
+          "expectedChunkIds": ["10000000-0000-0000-0000-000000000071"],
+          "finalChunkIds": [
+            "10000000-0000-0000-0000-000000000071",
+            "day27-distractor-ownership",
+            "10000000-0000-0000-0000-000000000070",
+            "day27-distractor-timeline",
+            "day27-distractor-hosting"
+          ],
+          "hit": true,
+          "allExpectedHit": true,
+          "firstExpectedRank": 1
+        },
+        {
+          "questionId": "q07",
+          "expectedChunkIds": ["10000000-0000-0000-0000-000000000071"],
+          "finalChunkIds": [
+            "10000000-0000-0000-0000-000000000071",
+            "day27-distractor-ownership",
+            "10000000-0000-0000-0000-000000000070",
+            "day27-distractor-timeline",
+            "day27-distractor-hosting"
+          ],
+          "hit": true,
+          "allExpectedHit": true,
+          "firstExpectedRank": 1
+        },
+        {
+          "questionId": "q08",
+          "expectedChunkIds": ["10000000-0000-0000-0000-000000000071"],
+          "finalChunkIds": [
+            "10000000-0000-0000-0000-000000000071",
+            "day27-distractor-ownership",
+            "day27-distractor-meetings",
+            "10000000-0000-0000-0000-000000000070",
+            "day27-distractor-timeline"
+          ],
+          "hit": true,
+          "allExpectedHit": true,
+          "firstExpectedRank": 1
+        },
+        {
+          "questionId": "q09",
+          "expectedChunkIds": ["10000000-0000-0000-0000-000000000070"],
+          "finalChunkIds": [
+            "10000000-0000-0000-0000-000000000071",
+            "10000000-0000-0000-0000-000000000070",
+            "day27-distractor-reporting",
+            "day27-distractor-meetings",
+            "day27-distractor-timeline"
+          ],
+          "hit": true,
+          "allExpectedHit": true,
+          "firstExpectedRank": 2
+        },
+        {
+          "questionId": "q10",
+          "expectedChunkIds": ["10000000-0000-0000-0000-000000000070"],
+          "finalChunkIds": [
+            "10000000-0000-0000-0000-000000000071",
+            "10000000-0000-0000-0000-000000000070",
+            "day27-distractor-timeline",
+            "day27-distractor-hosting",
+            "day27-distractor-reporting"
+          ],
+          "hit": true,
+          "allExpectedHit": true,
+          "firstExpectedRank": 2
+        },
+        {
+          "questionId": "q11",
+          "expectedChunkIds": ["10000000-0000-0000-0000-000000000070"],
+          "finalChunkIds": [
+            "10000000-0000-0000-0000-000000000071",
+            "10000000-0000-0000-0000-000000000070",
+            "day27-distractor-timeline",
+            "day27-distractor-hosting",
+            "day27-distractor-reporting"
+          ],
+          "hit": true,
+          "allExpectedHit": true,
+          "firstExpectedRank": 2
+        },
+        {
+          "questionId": "q12",
+          "expectedChunkIds": ["10000000-0000-0000-0000-000000000070"],
+          "finalChunkIds": [
+            "10000000-0000-0000-0000-000000000071",
+            "10000000-0000-0000-0000-000000000070",
+            "day27-distractor-reporting",
+            "day27-distractor-timeline",
+            "day27-distractor-hosting"
+          ],
+          "hit": true,
+          "allExpectedHit": true,
+          "firstExpectedRank": 2
+        },
+        {
+          "questionId": "q13",
+          "expectedChunkIds": ["10000000-0000-0000-0000-000000000070"],
+          "finalChunkIds": [
+            "10000000-0000-0000-0000-000000000071",
+            "10000000-0000-0000-0000-000000000070",
+            "day27-distractor-timeline",
+            "day27-distractor-hosting",
+            "day27-distractor-reporting"
+          ],
+          "hit": true,
+          "allExpectedHit": true,
+          "firstExpectedRank": 2
+        },
+        {
+          "questionId": "q14",
+          "expectedChunkIds": ["10000000-0000-0000-0000-000000000070"],
+          "finalChunkIds": [
+            "10000000-0000-0000-0000-000000000071",
+            "10000000-0000-0000-0000-000000000070",
+            "day27-distractor-timeline",
+            "day27-distractor-reporting",
+            "day27-distractor-emergency"
+          ],
+          "hit": true,
+          "allExpectedHit": true,
+          "firstExpectedRank": 2
+        },
+        {
+          "questionId": "q15",
+          "expectedChunkIds": ["10000000-0000-0000-0000-000000000070"],
+          "finalChunkIds": [
+            "10000000-0000-0000-0000-000000000071",
+            "10000000-0000-0000-0000-000000000070",
+            "day27-distractor-reporting",
+            "day27-distractor-timeline",
+            "day27-distractor-hosting"
+          ],
+          "hit": true,
+          "allExpectedHit": true,
+          "firstExpectedRank": 2
+        },
+        {
+          "questionId": "q16",
+          "expectedChunkIds": ["10000000-0000-0000-0000-000000000070"],
+          "finalChunkIds": [
+            "10000000-0000-0000-0000-000000000071",
+            "10000000-0000-0000-0000-000000000070",
+            "day27-distractor-timeline",
+            "day27-distractor-reporting",
+            "day27-distractor-meetings"
+          ],
+          "hit": true,
+          "allExpectedHit": true,
+          "firstExpectedRank": 2
+        },
+        {
+          "questionId": "q17",
+          "expectedChunkIds": [
+            "10000000-0000-0000-0000-000000000070",
+            "10000000-0000-0000-0000-000000000071"
+          ],
+          "finalChunkIds": [
+            "10000000-0000-0000-0000-000000000071",
+            "10000000-0000-0000-0000-000000000070",
+            "day27-distractor-reporting",
+            "day27-distractor-ownership",
+            "day27-distractor-timeline"
+          ],
+          "hit": true,
+          "allExpectedHit": true,
+          "firstExpectedRank": 1
+        },
+        {
+          "questionId": "q18",
+          "expectedChunkIds": [
+            "10000000-0000-0000-0000-000000000071",
+            "10000000-0000-0000-0000-000000000070"
+          ],
+          "finalChunkIds": [
+            "10000000-0000-0000-0000-000000000071",
+            "10000000-0000-0000-0000-000000000070",
+            "day27-distractor-reporting",
+            "day27-distractor-ownership",
+            "day27-distractor-meetings"
+          ],
+          "hit": true,
+          "allExpectedHit": true,
+          "firstExpectedRank": 1
+        },
+        {
+          "questionId": "q19",
+          "expectedChunkIds": [
+            "10000000-0000-0000-0000-000000000071",
+            "10000000-0000-0000-0000-000000000070"
+          ],
+          "finalChunkIds": [
+            "10000000-0000-0000-0000-000000000071",
+            "10000000-0000-0000-0000-000000000070",
+            "day27-distractor-timeline",
+            "day27-distractor-hosting",
+            "day27-distractor-reporting"
+          ],
+          "hit": true,
+          "allExpectedHit": true,
+          "firstExpectedRank": 1
+        },
+        {
+          "questionId": "q20",
+          "expectedChunkIds": [
+            "10000000-0000-0000-0000-000000000071",
+            "10000000-0000-0000-0000-000000000070"
+          ],
+          "finalChunkIds": [
+            "10000000-0000-0000-0000-000000000071",
+            "10000000-0000-0000-0000-000000000070",
+            "day27-distractor-reporting",
+            "day27-distractor-ownership",
+            "day27-distractor-timeline"
+          ],
+          "hit": true,
+          "allExpectedHit": true,
+          "firstExpectedRank": 1
+        }
+      ]
+    },
+    {
+      "config": {
+        "name": "stricter_threshold",
+        "matchCount": 10,
+        "finalCount": 5,
+        "similarityThreshold": 0.35
+      },
+      "hitRateAtFinalK": 1,
+      "allExpectedHitRateAtFinalK": 0.95,
+      "meanReciprocalRank": 0.9,
+      "questionResults": [
+        {
+          "questionId": "q01",
+          "expectedChunkIds": ["10000000-0000-0000-0000-000000000071"],
+          "finalChunkIds": [
+            "10000000-0000-0000-0000-000000000071",
+            "day27-distractor-ownership",
+            "10000000-0000-0000-0000-000000000070",
+            "day27-distractor-timeline",
+            "day27-distractor-hosting"
+          ],
+          "hit": true,
+          "allExpectedHit": true,
+          "firstExpectedRank": 1
+        },
+        {
+          "questionId": "q02",
+          "expectedChunkIds": ["10000000-0000-0000-0000-000000000071"],
+          "finalChunkIds": [
+            "10000000-0000-0000-0000-000000000071",
+            "day27-distractor-ownership"
+          ],
+          "hit": true,
+          "allExpectedHit": true,
+          "firstExpectedRank": 1
+        },
+        {
+          "questionId": "q03",
+          "expectedChunkIds": ["10000000-0000-0000-0000-000000000071"],
+          "finalChunkIds": ["10000000-0000-0000-0000-000000000071"],
+          "hit": true,
+          "allExpectedHit": true,
+          "firstExpectedRank": 1
+        },
+        {
+          "questionId": "q04",
+          "expectedChunkIds": ["10000000-0000-0000-0000-000000000071"],
+          "finalChunkIds": ["10000000-0000-0000-0000-000000000071"],
+          "hit": true,
+          "allExpectedHit": true,
+          "firstExpectedRank": 1
+        },
+        {
+          "questionId": "q05",
+          "expectedChunkIds": ["10000000-0000-0000-0000-000000000071"],
+          "finalChunkIds": [
+            "10000000-0000-0000-0000-000000000071",
+            "day27-distractor-ownership",
+            "day27-distractor-emergency"
+          ],
+          "hit": true,
+          "allExpectedHit": true,
+          "firstExpectedRank": 1
+        },
+        {
+          "questionId": "q06",
+          "expectedChunkIds": ["10000000-0000-0000-0000-000000000071"],
+          "finalChunkIds": ["10000000-0000-0000-0000-000000000071"],
+          "hit": true,
+          "allExpectedHit": true,
+          "firstExpectedRank": 1
+        },
+        {
+          "questionId": "q07",
+          "expectedChunkIds": ["10000000-0000-0000-0000-000000000071"],
+          "finalChunkIds": ["10000000-0000-0000-0000-000000000071"],
+          "hit": true,
+          "allExpectedHit": true,
+          "firstExpectedRank": 1
+        },
+        {
+          "questionId": "q08",
+          "expectedChunkIds": ["10000000-0000-0000-0000-000000000071"],
+          "finalChunkIds": ["10000000-0000-0000-0000-000000000071"],
+          "hit": true,
+          "allExpectedHit": true,
+          "firstExpectedRank": 1
+        },
+        {
+          "questionId": "q09",
+          "expectedChunkIds": ["10000000-0000-0000-0000-000000000070"],
+          "finalChunkIds": [
+            "10000000-0000-0000-0000-000000000071",
+            "10000000-0000-0000-0000-000000000070",
+            "day27-distractor-reporting",
+            "day27-distractor-meetings",
+            "day27-distractor-timeline"
+          ],
+          "hit": true,
+          "allExpectedHit": true,
+          "firstExpectedRank": 2
+        },
+        {
+          "questionId": "q10",
+          "expectedChunkIds": ["10000000-0000-0000-0000-000000000070"],
+          "finalChunkIds": ["10000000-0000-0000-0000-000000000070"],
+          "hit": true,
+          "allExpectedHit": true,
+          "firstExpectedRank": 1
+        },
+        {
+          "questionId": "q11",
+          "expectedChunkIds": ["10000000-0000-0000-0000-000000000070"],
+          "finalChunkIds": [
+            "10000000-0000-0000-0000-000000000070",
+            "day27-distractor-timeline",
+            "day27-distractor-hosting",
+            "day27-distractor-reporting",
+            "day27-distractor-ownership"
+          ],
+          "hit": true,
+          "allExpectedHit": true,
+          "firstExpectedRank": 1
+        },
+        {
+          "questionId": "q12",
+          "expectedChunkIds": ["10000000-0000-0000-0000-000000000070"],
+          "finalChunkIds": [
+            "10000000-0000-0000-0000-000000000070",
+            "day27-distractor-reporting"
+          ],
+          "hit": true,
+          "allExpectedHit": true,
+          "firstExpectedRank": 1
+        },
+        {
+          "questionId": "q13",
+          "expectedChunkIds": ["10000000-0000-0000-0000-000000000070"],
+          "finalChunkIds": [
+            "10000000-0000-0000-0000-000000000071",
+            "10000000-0000-0000-0000-000000000070",
+            "day27-distractor-timeline",
+            "day27-distractor-hosting",
+            "day27-distractor-reporting"
+          ],
+          "hit": true,
+          "allExpectedHit": true,
+          "firstExpectedRank": 2
+        },
+        {
+          "questionId": "q14",
+          "expectedChunkIds": ["10000000-0000-0000-0000-000000000070"],
+          "finalChunkIds": [
+            "10000000-0000-0000-0000-000000000071",
+            "10000000-0000-0000-0000-000000000070",
+            "day27-distractor-timeline",
+            "day27-distractor-reporting",
+            "day27-distractor-emergency"
+          ],
+          "hit": true,
+          "allExpectedHit": true,
+          "firstExpectedRank": 2
+        },
+        {
+          "questionId": "q15",
+          "expectedChunkIds": ["10000000-0000-0000-0000-000000000070"],
+          "finalChunkIds": ["10000000-0000-0000-0000-000000000070"],
+          "hit": true,
+          "allExpectedHit": true,
+          "firstExpectedRank": 1
+        },
+        {
+          "questionId": "q16",
+          "expectedChunkIds": ["10000000-0000-0000-0000-000000000070"],
+          "finalChunkIds": [
+            "10000000-0000-0000-0000-000000000071",
+            "10000000-0000-0000-0000-000000000070",
+            "day27-distractor-timeline",
+            "day27-distractor-reporting",
+            "day27-distractor-meetings"
+          ],
+          "hit": true,
+          "allExpectedHit": true,
+          "firstExpectedRank": 2
+        },
+        {
+          "questionId": "q17",
+          "expectedChunkIds": [
+            "10000000-0000-0000-0000-000000000070",
+            "10000000-0000-0000-0000-000000000071"
+          ],
+          "finalChunkIds": [
+            "10000000-0000-0000-0000-000000000071",
+            "10000000-0000-0000-0000-000000000070"
+          ],
+          "hit": true,
+          "allExpectedHit": true,
+          "firstExpectedRank": 1
+        },
+        {
+          "questionId": "q18",
+          "expectedChunkIds": [
+            "10000000-0000-0000-0000-000000000071",
+            "10000000-0000-0000-0000-000000000070"
+          ],
+          "finalChunkIds": [
+            "10000000-0000-0000-0000-000000000071",
+            "10000000-0000-0000-0000-000000000070"
+          ],
+          "hit": true,
+          "allExpectedHit": true,
+          "firstExpectedRank": 1
+        },
+        {
+          "questionId": "q19",
+          "expectedChunkIds": [
+            "10000000-0000-0000-0000-000000000071",
+            "10000000-0000-0000-0000-000000000070"
+          ],
+          "finalChunkIds": ["10000000-0000-0000-0000-000000000071"],
+          "hit": true,
+          "allExpectedHit": false,
+          "firstExpectedRank": 1
+        },
+        {
+          "questionId": "q20",
+          "expectedChunkIds": [
+            "10000000-0000-0000-0000-000000000071",
+            "10000000-0000-0000-0000-000000000070"
+          ],
+          "finalChunkIds": [
+            "10000000-0000-0000-0000-000000000071",
+            "10000000-0000-0000-0000-000000000070"
+          ],
+          "hit": true,
+          "allExpectedHit": true,
+          "firstExpectedRank": 1
+        }
+      ]
+    },
+    {
+      "config": {
+        "name": "smaller_candidate_pool",
+        "matchCount": 6,
+        "finalCount": 5,
+        "similarityThreshold": 0.2
+      },
+      "hitRateAtFinalK": 1,
+      "allExpectedHitRateAtFinalK": 1,
+      "meanReciprocalRank": 0.825,
+      "questionResults": [
+        {
+          "questionId": "q01",
+          "expectedChunkIds": ["10000000-0000-0000-0000-000000000071"],
+          "finalChunkIds": [
+            "10000000-0000-0000-0000-000000000071",
+            "day27-distractor-ownership",
+            "10000000-0000-0000-0000-000000000070",
+            "day27-distractor-timeline",
+            "day27-distractor-hosting"
+          ],
+          "hit": true,
+          "allExpectedHit": true,
+          "firstExpectedRank": 1
+        },
+        {
+          "questionId": "q02",
+          "expectedChunkIds": ["10000000-0000-0000-0000-000000000071"],
+          "finalChunkIds": [
+            "10000000-0000-0000-0000-000000000071",
+            "day27-distractor-ownership",
+            "10000000-0000-0000-0000-000000000070",
+            "day27-distractor-timeline",
+            "day27-distractor-hosting"
+          ],
+          "hit": true,
+          "allExpectedHit": true,
+          "firstExpectedRank": 1
+        },
+        {
+          "questionId": "q03",
+          "expectedChunkIds": ["10000000-0000-0000-0000-000000000071"],
+          "finalChunkIds": [
+            "10000000-0000-0000-0000-000000000071",
+            "day27-distractor-reporting",
+            "day27-distractor-ownership",
+            "10000000-0000-0000-0000-000000000070",
+            "day27-distractor-timeline"
+          ],
+          "hit": true,
+          "allExpectedHit": true,
+          "firstExpectedRank": 1
+        },
+        {
+          "questionId": "q04",
+          "expectedChunkIds": ["10000000-0000-0000-0000-000000000071"],
+          "finalChunkIds": [
+            "10000000-0000-0000-0000-000000000071",
+            "day27-distractor-ownership",
+            "10000000-0000-0000-0000-000000000070",
+            "day27-distractor-timeline",
+            "day27-distractor-hosting"
+          ],
+          "hit": true,
+          "allExpectedHit": true,
+          "firstExpectedRank": 1
+        },
+        {
+          "questionId": "q05",
+          "expectedChunkIds": ["10000000-0000-0000-0000-000000000071"],
+          "finalChunkIds": [
+            "10000000-0000-0000-0000-000000000071",
+            "day27-distractor-ownership",
+            "day27-distractor-emergency",
+            "10000000-0000-0000-0000-000000000070",
+            "day27-distractor-timeline"
+          ],
+          "hit": true,
+          "allExpectedHit": true,
+          "firstExpectedRank": 1
+        },
+        {
+          "questionId": "q06",
+          "expectedChunkIds": ["10000000-0000-0000-0000-000000000071"],
+          "finalChunkIds": [
+            "10000000-0000-0000-0000-000000000071",
+            "day27-distractor-ownership",
+            "10000000-0000-0000-0000-000000000070",
+            "day27-distractor-timeline",
+            "day27-distractor-hosting"
+          ],
+          "hit": true,
+          "allExpectedHit": true,
+          "firstExpectedRank": 1
+        },
+        {
+          "questionId": "q07",
+          "expectedChunkIds": ["10000000-0000-0000-0000-000000000071"],
+          "finalChunkIds": [
+            "10000000-0000-0000-0000-000000000071",
+            "day27-distractor-ownership",
+            "10000000-0000-0000-0000-000000000070",
+            "day27-distractor-timeline",
+            "day27-distractor-hosting"
+          ],
+          "hit": true,
+          "allExpectedHit": true,
+          "firstExpectedRank": 1
+        },
+        {
+          "questionId": "q08",
+          "expectedChunkIds": ["10000000-0000-0000-0000-000000000071"],
+          "finalChunkIds": [
+            "10000000-0000-0000-0000-000000000071",
+            "day27-distractor-ownership",
+            "day27-distractor-meetings",
+            "10000000-0000-0000-0000-000000000070",
+            "day27-distractor-timeline"
+          ],
+          "hit": true,
+          "allExpectedHit": true,
+          "firstExpectedRank": 1
+        },
+        {
+          "questionId": "q09",
+          "expectedChunkIds": ["10000000-0000-0000-0000-000000000070"],
+          "finalChunkIds": [
+            "10000000-0000-0000-0000-000000000071",
+            "10000000-0000-0000-0000-000000000070",
+            "day27-distractor-reporting",
+            "day27-distractor-meetings",
+            "day27-distractor-timeline"
+          ],
+          "hit": true,
+          "allExpectedHit": true,
+          "firstExpectedRank": 2
+        },
+        {
+          "questionId": "q10",
+          "expectedChunkIds": ["10000000-0000-0000-0000-000000000070"],
+          "finalChunkIds": [
+            "10000000-0000-0000-0000-000000000071",
+            "10000000-0000-0000-0000-000000000070",
+            "day27-distractor-timeline",
+            "day27-distractor-hosting",
+            "day27-distractor-reporting"
+          ],
+          "hit": true,
+          "allExpectedHit": true,
+          "firstExpectedRank": 2
+        },
+        {
+          "questionId": "q11",
+          "expectedChunkIds": ["10000000-0000-0000-0000-000000000070"],
+          "finalChunkIds": [
+            "10000000-0000-0000-0000-000000000070",
+            "day27-distractor-timeline",
+            "day27-distractor-hosting",
+            "day27-distractor-reporting",
+            "day27-distractor-ownership"
+          ],
+          "hit": true,
+          "allExpectedHit": true,
+          "firstExpectedRank": 1
+        },
+        {
+          "questionId": "q12",
+          "expectedChunkIds": ["10000000-0000-0000-0000-000000000070"],
+          "finalChunkIds": [
+            "10000000-0000-0000-0000-000000000071",
+            "10000000-0000-0000-0000-000000000070",
+            "day27-distractor-reporting",
+            "day27-distractor-timeline",
+            "day27-distractor-hosting"
+          ],
+          "hit": true,
+          "allExpectedHit": true,
+          "firstExpectedRank": 2
+        },
+        {
+          "questionId": "q13",
+          "expectedChunkIds": ["10000000-0000-0000-0000-000000000070"],
+          "finalChunkIds": [
+            "10000000-0000-0000-0000-000000000071",
+            "10000000-0000-0000-0000-000000000070",
+            "day27-distractor-timeline",
+            "day27-distractor-hosting",
+            "day27-distractor-reporting"
+          ],
+          "hit": true,
+          "allExpectedHit": true,
+          "firstExpectedRank": 2
+        },
+        {
+          "questionId": "q14",
+          "expectedChunkIds": ["10000000-0000-0000-0000-000000000070"],
+          "finalChunkIds": [
+            "10000000-0000-0000-0000-000000000071",
+            "10000000-0000-0000-0000-000000000070",
+            "day27-distractor-timeline",
+            "day27-distractor-reporting",
+            "day27-distractor-emergency"
+          ],
+          "hit": true,
+          "allExpectedHit": true,
+          "firstExpectedRank": 2
+        },
+        {
+          "questionId": "q15",
+          "expectedChunkIds": ["10000000-0000-0000-0000-000000000070"],
+          "finalChunkIds": [
+            "10000000-0000-0000-0000-000000000071",
+            "10000000-0000-0000-0000-000000000070",
+            "day27-distractor-reporting",
+            "day27-distractor-timeline",
+            "day27-distractor-hosting"
+          ],
+          "hit": true,
+          "allExpectedHit": true,
+          "firstExpectedRank": 2
+        },
+        {
+          "questionId": "q16",
+          "expectedChunkIds": ["10000000-0000-0000-0000-000000000070"],
+          "finalChunkIds": [
+            "10000000-0000-0000-0000-000000000071",
+            "10000000-0000-0000-0000-000000000070",
+            "day27-distractor-timeline",
+            "day27-distractor-reporting",
+            "day27-distractor-meetings"
+          ],
+          "hit": true,
+          "allExpectedHit": true,
+          "firstExpectedRank": 2
+        },
+        {
+          "questionId": "q17",
+          "expectedChunkIds": [
+            "10000000-0000-0000-0000-000000000070",
+            "10000000-0000-0000-0000-000000000071"
+          ],
+          "finalChunkIds": [
+            "10000000-0000-0000-0000-000000000071",
+            "10000000-0000-0000-0000-000000000070",
+            "day27-distractor-reporting",
+            "day27-distractor-ownership",
+            "day27-distractor-timeline"
+          ],
+          "hit": true,
+          "allExpectedHit": true,
+          "firstExpectedRank": 1
+        },
+        {
+          "questionId": "q18",
+          "expectedChunkIds": [
+            "10000000-0000-0000-0000-000000000071",
+            "10000000-0000-0000-0000-000000000070"
+          ],
+          "finalChunkIds": [
+            "10000000-0000-0000-0000-000000000071",
+            "10000000-0000-0000-0000-000000000070",
+            "day27-distractor-reporting",
+            "day27-distractor-ownership",
+            "day27-distractor-meetings"
+          ],
+          "hit": true,
+          "allExpectedHit": true,
+          "firstExpectedRank": 1
+        },
+        {
+          "questionId": "q19",
+          "expectedChunkIds": [
+            "10000000-0000-0000-0000-000000000071",
+            "10000000-0000-0000-0000-000000000070"
+          ],
+          "finalChunkIds": [
+            "10000000-0000-0000-0000-000000000071",
+            "10000000-0000-0000-0000-000000000070",
+            "day27-distractor-timeline",
+            "day27-distractor-hosting",
+            "day27-distractor-reporting"
+          ],
+          "hit": true,
+          "allExpectedHit": true,
+          "firstExpectedRank": 1
+        },
+        {
+          "questionId": "q20",
+          "expectedChunkIds": [
+            "10000000-0000-0000-0000-000000000071",
+            "10000000-0000-0000-0000-000000000070"
+          ],
+          "finalChunkIds": [
+            "10000000-0000-0000-0000-000000000071",
+            "10000000-0000-0000-0000-000000000070",
+            "day27-distractor-reporting",
+            "day27-distractor-ownership",
+            "day27-distractor-timeline"
+          ],
+          "hit": true,
+          "allExpectedHit": true,
+          "firstExpectedRank": 1
+        }
+      ]
+    },
+    {
+      "config": {
+        "name": "compact_final_context",
+        "matchCount": 10,
+        "finalCount": 3,
+        "similarityThreshold": 0.2
+      },
+      "hitRateAtFinalK": 1,
+      "allExpectedHitRateAtFinalK": 1,
+      "meanReciprocalRank": 0.8,
+      "questionResults": [
+        {
+          "questionId": "q01",
+          "expectedChunkIds": ["10000000-0000-0000-0000-000000000071"],
+          "finalChunkIds": [
+            "10000000-0000-0000-0000-000000000071",
+            "day27-distractor-ownership",
+            "10000000-0000-0000-0000-000000000070"
+          ],
+          "hit": true,
+          "allExpectedHit": true,
+          "firstExpectedRank": 1
+        },
+        {
+          "questionId": "q02",
+          "expectedChunkIds": ["10000000-0000-0000-0000-000000000071"],
+          "finalChunkIds": [
+            "10000000-0000-0000-0000-000000000071",
+            "day27-distractor-ownership",
+            "10000000-0000-0000-0000-000000000070"
+          ],
+          "hit": true,
+          "allExpectedHit": true,
+          "firstExpectedRank": 1
+        },
+        {
+          "questionId": "q03",
+          "expectedChunkIds": ["10000000-0000-0000-0000-000000000071"],
+          "finalChunkIds": [
+            "10000000-0000-0000-0000-000000000071",
+            "day27-distractor-reporting",
+            "day27-distractor-ownership"
+          ],
+          "hit": true,
+          "allExpectedHit": true,
+          "firstExpectedRank": 1
+        },
+        {
+          "questionId": "q04",
+          "expectedChunkIds": ["10000000-0000-0000-0000-000000000071"],
+          "finalChunkIds": [
+            "10000000-0000-0000-0000-000000000071",
+            "day27-distractor-ownership",
+            "10000000-0000-0000-0000-000000000070"
+          ],
+          "hit": true,
+          "allExpectedHit": true,
+          "firstExpectedRank": 1
+        },
+        {
+          "questionId": "q05",
+          "expectedChunkIds": ["10000000-0000-0000-0000-000000000071"],
+          "finalChunkIds": [
+            "10000000-0000-0000-0000-000000000071",
+            "day27-distractor-ownership",
+            "day27-distractor-emergency"
+          ],
+          "hit": true,
+          "allExpectedHit": true,
+          "firstExpectedRank": 1
+        },
+        {
+          "questionId": "q06",
+          "expectedChunkIds": ["10000000-0000-0000-0000-000000000071"],
+          "finalChunkIds": [
+            "10000000-0000-0000-0000-000000000071",
+            "day27-distractor-ownership",
+            "10000000-0000-0000-0000-000000000070"
+          ],
+          "hit": true,
+          "allExpectedHit": true,
+          "firstExpectedRank": 1
+        },
+        {
+          "questionId": "q07",
+          "expectedChunkIds": ["10000000-0000-0000-0000-000000000071"],
+          "finalChunkIds": [
+            "10000000-0000-0000-0000-000000000071",
+            "day27-distractor-ownership",
+            "10000000-0000-0000-0000-000000000070"
+          ],
+          "hit": true,
+          "allExpectedHit": true,
+          "firstExpectedRank": 1
+        },
+        {
+          "questionId": "q08",
+          "expectedChunkIds": ["10000000-0000-0000-0000-000000000071"],
+          "finalChunkIds": [
+            "10000000-0000-0000-0000-000000000071",
+            "day27-distractor-ownership",
+            "day27-distractor-meetings"
+          ],
+          "hit": true,
+          "allExpectedHit": true,
+          "firstExpectedRank": 1
+        },
+        {
+          "questionId": "q09",
+          "expectedChunkIds": ["10000000-0000-0000-0000-000000000070"],
+          "finalChunkIds": [
+            "10000000-0000-0000-0000-000000000071",
+            "10000000-0000-0000-0000-000000000070",
+            "day27-distractor-reporting"
+          ],
+          "hit": true,
+          "allExpectedHit": true,
+          "firstExpectedRank": 2
+        },
+        {
+          "questionId": "q10",
+          "expectedChunkIds": ["10000000-0000-0000-0000-000000000070"],
+          "finalChunkIds": [
+            "10000000-0000-0000-0000-000000000071",
+            "10000000-0000-0000-0000-000000000070",
+            "day27-distractor-timeline"
+          ],
+          "hit": true,
+          "allExpectedHit": true,
+          "firstExpectedRank": 2
+        },
+        {
+          "questionId": "q11",
+          "expectedChunkIds": ["10000000-0000-0000-0000-000000000070"],
+          "finalChunkIds": [
+            "10000000-0000-0000-0000-000000000071",
+            "10000000-0000-0000-0000-000000000070",
+            "day27-distractor-timeline"
+          ],
+          "hit": true,
+          "allExpectedHit": true,
+          "firstExpectedRank": 2
+        },
+        {
+          "questionId": "q12",
+          "expectedChunkIds": ["10000000-0000-0000-0000-000000000070"],
+          "finalChunkIds": [
+            "10000000-0000-0000-0000-000000000071",
+            "10000000-0000-0000-0000-000000000070",
+            "day27-distractor-reporting"
+          ],
+          "hit": true,
+          "allExpectedHit": true,
+          "firstExpectedRank": 2
+        },
+        {
+          "questionId": "q13",
+          "expectedChunkIds": ["10000000-0000-0000-0000-000000000070"],
+          "finalChunkIds": [
+            "10000000-0000-0000-0000-000000000071",
+            "10000000-0000-0000-0000-000000000070",
+            "day27-distractor-timeline"
+          ],
+          "hit": true,
+          "allExpectedHit": true,
+          "firstExpectedRank": 2
+        },
+        {
+          "questionId": "q14",
+          "expectedChunkIds": ["10000000-0000-0000-0000-000000000070"],
+          "finalChunkIds": [
+            "10000000-0000-0000-0000-000000000071",
+            "10000000-0000-0000-0000-000000000070",
+            "day27-distractor-timeline"
+          ],
+          "hit": true,
+          "allExpectedHit": true,
+          "firstExpectedRank": 2
+        },
+        {
+          "questionId": "q15",
+          "expectedChunkIds": ["10000000-0000-0000-0000-000000000070"],
+          "finalChunkIds": [
+            "10000000-0000-0000-0000-000000000071",
+            "10000000-0000-0000-0000-000000000070",
+            "day27-distractor-reporting"
+          ],
+          "hit": true,
+          "allExpectedHit": true,
+          "firstExpectedRank": 2
+        },
+        {
+          "questionId": "q16",
+          "expectedChunkIds": ["10000000-0000-0000-0000-000000000070"],
+          "finalChunkIds": [
+            "10000000-0000-0000-0000-000000000071",
+            "10000000-0000-0000-0000-000000000070",
+            "day27-distractor-timeline"
+          ],
+          "hit": true,
+          "allExpectedHit": true,
+          "firstExpectedRank": 2
+        },
+        {
+          "questionId": "q17",
+          "expectedChunkIds": [
+            "10000000-0000-0000-0000-000000000070",
+            "10000000-0000-0000-0000-000000000071"
+          ],
+          "finalChunkIds": [
+            "10000000-0000-0000-0000-000000000071",
+            "10000000-0000-0000-0000-000000000070",
+            "day27-distractor-reporting"
+          ],
+          "hit": true,
+          "allExpectedHit": true,
+          "firstExpectedRank": 1
+        },
+        {
+          "questionId": "q18",
+          "expectedChunkIds": [
+            "10000000-0000-0000-0000-000000000071",
+            "10000000-0000-0000-0000-000000000070"
+          ],
+          "finalChunkIds": [
+            "10000000-0000-0000-0000-000000000071",
+            "10000000-0000-0000-0000-000000000070",
+            "day27-distractor-reporting"
+          ],
+          "hit": true,
+          "allExpectedHit": true,
+          "firstExpectedRank": 1
+        },
+        {
+          "questionId": "q19",
+          "expectedChunkIds": [
+            "10000000-0000-0000-0000-000000000071",
+            "10000000-0000-0000-0000-000000000070"
+          ],
+          "finalChunkIds": [
+            "10000000-0000-0000-0000-000000000071",
+            "10000000-0000-0000-0000-000000000070",
+            "day27-distractor-timeline"
+          ],
+          "hit": true,
+          "allExpectedHit": true,
+          "firstExpectedRank": 1
+        },
+        {
+          "questionId": "q20",
+          "expectedChunkIds": [
+            "10000000-0000-0000-0000-000000000071",
+            "10000000-0000-0000-0000-000000000070"
+          ],
+          "finalChunkIds": [
+            "10000000-0000-0000-0000-000000000071",
+            "10000000-0000-0000-0000-000000000070",
+            "day27-distractor-reporting"
+          ],
+          "hit": true,
+          "allExpectedHit": true,
+          "firstExpectedRank": 1
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "name": "scopesignal",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint .",
+    "db:push": "npx supabase db push",
+    "db:reset": "npx supabase db reset",
+    "db:seed": "node --env-file=.env.local --import tsx supabase/seed.ts",
+    "benchmark:pdf": "tsx scripts/benchmark-pdf-parsers.ts",
+    "benchmark:classification": "node --env-file=.env.local --import tsx scripts/benchmark-classification-models.ts",
+    "evaluate:retrieval": "tsx scripts/evaluate-retrieval.ts",
+    "license:hash": "tsx scripts/hash-license-codes.ts",
+    "worker:scope": "node --env-file=.env.local --import tsx workers/scope-worker.ts",
+    "worker:scope:once": "node --env-file=.env.local --import tsx workers/scope-worker.ts --once",
+    "worker:documents": "node --env-file=.env.local --import tsx workers/document-worker.ts",
+    "worker:documents:once": "node --env-file=.env.local --import tsx workers/document-worker.ts --once",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "typecheck": "tsc --noEmit",
+    "format": "prettier --write .",
+    "format:check": "prettier --check ."
+  },
+  "dependencies": {
+    "@radix-ui/react-slot": "^1.2.4",
+    "@supabase/ssr": "^0.10.2",
+    "@supabase/supabase-js": "^2.57.4",
+    "class-variance-authority": "^0.7.1",
+    "clsx": "^2.1.1",
+    "lucide-react": "^1.7.0",
+    "next": "^16.2.3",
+    "openai": "^6.34.0",
+    "pdf-parse": "^2.4.5",
+    "pdfjs-dist": "^5.4.296",
+    "react": "19.2.4",
+    "react-dom": "19.2.4",
+    "resend": "^6.12.2",
+    "tailwind-merge": "^3.5.0",
+    "zod": "^4.3.6"
+  },
+  "devDependencies": {
+    "@eslint/eslintrc": "3.3.1",
+    "@tailwindcss/postcss": "^4.2.2",
+    "@types/node": "25.5.2",
+    "@types/react": "19.2.14",
+    "@types/react-dom": "19.2.3",
+    "eslint": "9.39.4",
+    "eslint-config-next": "16.2.2",
+    "prettier": "3.8.1",
+    "supabase": "^2.85.0",
+    "tailwindcss": "^4.2.2",
+    "tsx": "^4.20.6",
+    "typescript": "5.9.3",
+    "vitest": "^4.1.4"
+  },
+  "engines": {
+    "node": ">=20.9.0"
+  }
+}
