@@ -196,58 +196,59 @@ export function SandboxSimulation() {
       id="sandbox-simulation"
       className="relative overflow-hidden rounded-xl border border-accent/25 bg-card/80 p-4 shadow-[0_18px_45px_color-mix(in_oklab,var(--foreground)_10%,transparent)] backdrop-blur-md sm:p-6"
     >
-      <div className="absolute right-4 top-4 hidden w-72 rounded-lg border border-border/70 bg-background/95 p-3 shadow-lg xl:block">
-        <p className="text-xs font-semibold uppercase text-accent">
-          Guided walkthrough
-        </p>
-        <div className="mt-3 space-y-3">
-          {[
-            "A client sent this",
-            "ScopeSignal compared it to your proposal",
-            "Your team gets this alert",
-          ].map((label, index) => (
-            <div key={label} className="flex gap-2">
-              <div
-                className={cn(
-                  "mt-0.5 flex h-5 w-5 shrink-0 items-center justify-center rounded-md border text-[10px]",
-                  activeStepIndex >= index
-                    ? "border-accent bg-accent text-accent-foreground"
-                    : "border-border text-muted-foreground",
-                )}
-              >
-                {activeStepIndex > index ? (
-                  <CheckCircle2 className="h-3 w-3" />
-                ) : (
-                  index + 1
-                )}
-              </div>
-              <p
-                className={cn(
-                  "text-xs leading-5",
-                  activeStepIndex >= index
-                    ? "text-foreground"
-                    : "text-muted-foreground",
-                )}
-              >
-                {label}
-              </p>
-            </div>
-          ))}
+      <div className="flex items-start justify-between gap-6">
+        <div className="max-w-3xl">
+          <Badge variant="info" className="rounded-md">
+            Browser-only simulation
+          </Badge>
+          <h2 className="mt-3 text-2xl font-semibold tracking-tight text-foreground">
+            Watch a client request become a scope alert
+          </h2>
+          <p className="mt-2 text-sm text-muted-foreground">
+            Send a test Slack message, let the sandbox compare it against the
+            ClientCo proposal, and watch the alert appear without using Slack,
+            OpenAI, or your real quota.
+          </p>
         </div>
-      </div>
-
-      <div className="max-w-3xl">
-        <Badge variant="info" className="rounded-md">
-          Browser-only simulation
-        </Badge>
-        <h2 className="mt-3 text-2xl font-semibold tracking-tight text-foreground">
-          Watch a client request become a scope alert
-        </h2>
-        <p className="mt-2 text-sm text-muted-foreground">
-          Send a test Slack message, let the sandbox compare it against the
-          ClientCo proposal, and watch the alert appear without using Slack,
-          OpenAI, or your real quota.
-        </p>
+        <div className="hidden w-72 shrink-0 rounded-lg border border-border/70 bg-background/95 p-3 shadow-sm xl:block">
+          <p className="text-xs font-semibold uppercase text-accent">
+            Guided walkthrough
+          </p>
+          <div className="mt-3 space-y-3">
+            {[
+              "A client sent this",
+              "ScopeSignal compared it to your proposal",
+              "Your team gets this alert",
+            ].map((label, index) => (
+              <div key={label} className="flex gap-2">
+                <div
+                  className={cn(
+                    "mt-0.5 flex h-5 w-5 shrink-0 items-center justify-center rounded-md border text-[10px]",
+                    activeStepIndex >= index
+                      ? "border-accent bg-accent text-accent-foreground"
+                      : "border-border text-muted-foreground",
+                  )}
+                >
+                  {activeStepIndex > index ? (
+                    <CheckCircle2 className="h-3 w-3" />
+                  ) : (
+                    index + 1
+                  )}
+                </div>
+                <p
+                  className={cn(
+                    "text-xs leading-5",
+                    activeStepIndex >= index
+                      ? "text-foreground"
+                      : "text-muted-foreground",
+                  )}
+                >
+                  {label}
+                </p>
+              </div>
+            ))}
+          </div>
+        </div>
       </div>
 
       <div className="mt-6 grid gap-6 xl:grid-cols-[minmax(0,1.05fr)_minmax(360px,0.95fr)]">

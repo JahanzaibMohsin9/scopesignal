@@ -155,7 +155,7 @@ export default function SandboxPage() {
   ];
 
   return (
-    <div className="space-y-6">
+    <div className="mx-auto w-full max-w-7xl space-y-6 px-4 py-6 sm:px-6 lg:py-10">
       <PageHeader
         icon={ShieldCheck}
         title="Sandbox"
