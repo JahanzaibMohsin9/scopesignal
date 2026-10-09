@@ -1,8 +1,18 @@
 import { cache } from "react";
 import { createSupabaseServerClient } from "@/lib/supabase/server";
 import { ensureUserWorkspaceProfile } from "@/lib/auth/workspace";
+import { sandboxOnly } from "@/lib/sandbox/mode";
 
 export const getWorkspaceSession = cache(async () => {
+  if (sandboxOnly) {
+    return {
+      accountName: undefined,
+      user: null,
+      workspaceId: null,
+      workspaceName: undefined,
+    };
+  }
+
   const supabase = await createSupabaseServerClient();
   const {
     data: { user },

@@ -1,6 +1,7 @@
 import { NextResponse, type NextRequest } from "next/server";
 import { createServerClient } from "@supabase/ssr";
 import { getSupabaseBrowserConfig } from "@/lib/supabase/config";
+import { sandboxOnly } from "@/lib/sandbox/mode";
 
 const protectedPrefixes = ["/dashboard", "/proposals", "/alerts", "/settings"];
 
@@ -11,6 +12,16 @@ function isProtectedPath(pathname: string) {
 }
 
 export async function proxy(request: NextRequest) {
+  if (sandboxOnly) {
+    if (request.nextUrl.pathname === "/sandbox") {
+      return NextResponse.next();
+    }
+    const sandboxUrl = request.nextUrl.clone();
+    sandboxUrl.pathname = "/sandbox";
+    sandboxUrl.search = "";
+    return NextResponse.redirect(sandboxUrl);
+  }
+
   let response = NextResponse.next({
     request,
   });

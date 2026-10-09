@@ -6,6 +6,8 @@ import { AppShell } from "@/components/layout/app-shell";
 import type { TopbarAlertItem } from "@/components/layout/topbar";
 import { getWorkspaceSession } from "@/lib/auth/session";
 import { createSupabaseAdminClient } from "@/lib/supabase/admin";
+import { sandboxOnly } from "@/lib/sandbox/mode";
+import { connection } from "next/server";
 
 const inter = Inter({
   subsets: ["latin"],
@@ -30,11 +32,16 @@ async function RootLayoutContent({
 }: Readonly<{
   children: ReactNode;
 }>) {
+  if (sandboxOnly) {
+    // Only /sandbox is served in this mode (the proxy redirects everything
+    // else), so render on request and keep the build from prerendering pages
+    // that need Supabase.
+    await connection();
+  }
   const shellAccount = await getWorkspaceSession();
-  const adminSupabase = createSupabaseAdminClient();
 
   const { data: recentAlertsData } = shellAccount.workspaceId
-    ? await adminSupabase
+    ? await createSupabaseAdminClient()
         .from("alerts")
         .select(
           "id, client_message, verdict, status, created_at, proposals(name, client_name)",
