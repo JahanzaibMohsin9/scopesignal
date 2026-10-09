@@ -4,17 +4,18 @@
 
 Contract-aware scope-creep detection for agencies. ScopeSignal reads the signed proposal and any addendums, watches approved client channels in Slack, and warns the account manager when a client request looks like work that isn't in the contract, before anyone says yes to it.
 
-![ScopeSignal landing page](docs/screenshots/landing.png)
-
-**Sandbox demo:** a client asks for paid-media work, and ScopeSignal flags it as out of scope, citing the clause in the signed proposal.
+**Try it live:** the [ScopeSignal sandbox](https://jahanzaib-portfolio.pages.dev/demos/scopesignal/sandbox) runs in the browser with preloaded data. No sign-up, and nothing is saved.
 
 ![Sandbox alert](docs/screenshots/sandbox.png)
+
+A client asks for paid-media work, and ScopeSignal flags it as out of scope, citing the clause in the signed proposal.
 
 <details>
 <summary>More screenshots</summary>
 
-![How it works](docs/screenshots/how-it-works.png)
-![Pricing](docs/screenshots/pricing.png)
+![Alert list with verdicts, confidence and evidence](docs/screenshots/alerts.png)
+![An indexed proposal and its addendum](docs/screenshots/proposal.png)
+![Watched Slack channels and client contacts](docs/screenshots/channels.png)
 
 </details>
 
@@ -68,6 +69,17 @@ npm run worker:scope          # classifies queued Slack messages
 ```
 
 Slack app setup (scopes, event subscriptions, interactivity, OAuth redirect) is covered in [docs/slack-setup.md](docs/slack-setup.md).
+
+### Sandbox only
+
+The sandbox runs entirely in the browser on preloaded data. To build just the sandbox, with no Supabase, Slack or OpenAI settings:
+
+```bash
+NEXT_PUBLIC_SANDBOX_ONLY=1 npm run build
+NEXT_PUBLIC_SANDBOX_ONLY=1 npm start    # every route redirects to /sandbox
+```
+
+Set `SANDBOX_BASE_PATH` (for example `/demos/scopesignal`) to serve it from a sub-path. This is how the live demo is built.
 
 ## Evaluation
 
